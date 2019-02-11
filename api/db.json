@@ -1,0 +1,16 @@
+{
+  "coffeeDrinks": [
+    {
+      "drink": "dirty Chai Latte",
+      "barrista": "Dale",
+      "location": "midtown",
+      "id": 1
+    },
+    {
+      "drink": "mocha",
+      "barrista": "dale",
+      "location": "downtown",
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport content=width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!---- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Coffee Drink Knowledge</title>
+  </head>
+  <body>
+    <fieldset>
+    <lable for="drinkInput">Drink Name</lable>
+    <input id="drinkInput" type="text" name="Name of Drink">
+    <lable for="barristaInput">Barrista Name</lable>
+    <input id="barristaInput" type="text" name="Barrista">
+    <lable for="locationInput">Coffe Shop Location</lable>
+    <input id="locationInput" type="text" name="Location">
+    <button id="submit-btn">SUBMIT</button>
+    </fieldset>
+    <section id="drinkContainer"></section>
+    <script src="scripts/singleDrink.js"></script>
+    <script src="scripts/apiManager.js"></script>
+    <script src="scripts/printAllDrinks.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
